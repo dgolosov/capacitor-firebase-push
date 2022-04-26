@@ -9,10 +9,10 @@ end
 
 target 'Plugin' do
   capacitor_pods
-  pod 'Firebase/Messaging', '7.10.0'
+  pod 'Firebase/Messaging'
 end
 
 target 'PluginTests' do
   capacitor_pods
-  pod 'Firebase/Messaging', '7.10.0'
+  pod 'Firebase/Messaging'
 end
